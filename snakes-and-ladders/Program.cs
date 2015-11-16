@@ -52,8 +52,8 @@ namespace snakes_and_ladders {
         /// <summary>
         /// Print the current roll number, position, and then prompts the user to press a key to roll the dice.
         /// </summary>
-        /// <param name="rollNumber"></param>
-        /// <param name="position"></param>
+        /// <param name="rollNumber">Integer with the current roll number</param>
+        /// <param name="position">Integer with the current position</param>
         static void PrintPositions(int rollNumber, int position) {
             Console.WriteLine($"Roll number: {rollNumber}");
             Console.WriteLine($"Current position: {position}");
